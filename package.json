@@ -1,0 +1,10 @@
+{
+  "name": "tic-tac-toe-relay-cf",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cloudflare Worker relay (Durable Object) that pairs two tic-tac-toe players and forwards their moves.",
+  "main": "src/index.js",
+  "dependencies": {
+    "ws": "^8.22.0"
+  }
+}
